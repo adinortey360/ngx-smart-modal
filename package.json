@@ -1,10 +1,14 @@
 {
   "name": "ngx-smart-modal",
   "version": "0.0.0",
+  "main": "dist/ngx-smart-modal/bundles/ngx-smart-modal.umd.js",
+  "module": "dist/ngx-smart-modal/fesm2020/ngx-smart-modal.js",
+  "es2015": "dist/ngx-smart-modal/fesm2015/ngx-smart-modal.js",
+  "typings": "dist/ngx-smart-modal/ngx-smart-modal.d.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng-packagr -p projects/ngx-smart-modal/ng-package.json",
     "build:sass": "sass --no-source-map --style=compressed dist/ngx-smart-modal/styles",
     "postbuild": "cpy README.md LICENSE dist",
     "watch": "ng build --watch --configuration development",

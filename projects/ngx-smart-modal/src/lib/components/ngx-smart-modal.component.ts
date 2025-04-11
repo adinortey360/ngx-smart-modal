@@ -26,6 +26,7 @@ import { NgxSmartModalConfig } from '../config/ngx-smart-modal.config';
 @Component({
   selector: 'ngx-smart-modal',
   standalone: true,
+  imports: [CommonModule],
   template: `
   <div *ngIf="overlayVisible"
        [style.z-index]="visible ? layerPosition-1 : -1"

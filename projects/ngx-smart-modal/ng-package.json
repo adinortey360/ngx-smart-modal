@@ -3,8 +3,5 @@
   "dest": "../../dist/ngx-smart-modal",
   "lib": {
     "entryFile": "src/public-api.ts"
-  },
-  "assets": [
-    { "input": "src/styles", "glob": "**/*.scss", "output": "styles" }
-  ]
+  }
 }
