@@ -20,10 +20,12 @@ import {
   ViewChildren,
   ViewContainerRef
 } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { NgxSmartModalConfig } from '../config/ngx-smart-modal.config';
 
 @Component({
   selector: 'ngx-smart-modal',
+  standalone: true,
   template: `
   <div *ngIf="overlayVisible"
        [style.z-index]="visible ? layerPosition-1 : -1"
