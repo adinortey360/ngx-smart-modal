@@ -8,7 +8,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng-packagr -p projects/ngx-smart-modal/ng-package.json",
+    "build": "ng-packagr -p projects/ngx-smart-modal/ng-package.json && node patch-package-json.js",
     "build:sass": "sass --no-source-map --style=compressed dist/ngx-smart-modal/styles",
     "postbuild": "cpy README.md LICENSE dist",
     "watch": "ng build --watch --configuration development",

@@ -1,6 +1,0 @@
-/*
- * Public API Surface of ngx-smart-modal
- */
-export * from './lib/services/ngx-smart-modal.service';
-export * from './lib/components/ngx-smart-modal.component';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyx3Q0FBd0MsQ0FBQztBQUN2RCxjQUFjLDRDQUE0QyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBuZ3gtc21hcnQtbW9kYWxcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9zZXJ2aWNlcy9uZ3gtc21hcnQtbW9kYWwuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9jb21wb25lbnRzL25neC1zbWFydC1tb2RhbC5jb21wb25lbnQnO1xuIl19
